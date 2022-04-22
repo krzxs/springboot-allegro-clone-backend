@@ -7,6 +7,7 @@ import java.util.UUID;
 
 @AllArgsConstructor
 @RequestMapping("allegro/users")
+@CrossOrigin
 @RestController
 public class UserController {
 

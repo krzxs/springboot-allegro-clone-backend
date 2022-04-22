@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @AllArgsConstructor
 @RestController
+@CrossOrigin
 @RequestMapping("allegro/cart")
 public class CartController {
 

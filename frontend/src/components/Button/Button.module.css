@@ -1,0 +1,7 @@
+.medium {
+  @apply text-red-800;
+}
+
+.small {
+  @apply h-10 bg-red-500;
+}

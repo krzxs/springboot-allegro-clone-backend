@@ -7,6 +7,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @RestController
+@CrossOrigin
 @RequestMapping("allegro/products")
 public class ProductController {
 
