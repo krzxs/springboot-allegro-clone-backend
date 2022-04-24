@@ -3,7 +3,7 @@ import { useState } from "react";
 import cn from "classnames";
 
 function Login() {
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState<boolean>(true);
   return (
     <div>
       <div className="w-2/6 py-5 bg-gray-400 flex flex-col items-center ml-auto mr-auto mt-36 rounded-md min-w-fit px-5">

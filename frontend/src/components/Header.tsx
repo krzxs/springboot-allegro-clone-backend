@@ -1,7 +1,6 @@
 import React from "react";
-import Home from "../pages/Home/Home";
-import Login from "../pages/Login/Login";
 import { Link } from "react-router-dom";
+import Cart from "./Cart";
 
 function Header() {
   return (
@@ -9,9 +8,12 @@ function Header() {
       <Link to="/" className="ml-10">
         ALLEGRO
       </Link>
-      <Link to="/login" className="mr-10">
-        LOG IN
-      </Link>
+      <div className="flex justify-between w-44">
+        <Cart />
+        <Link to="/login" className="mr-10">
+          LOG IN
+        </Link>
+      </div>
     </div>
   );
 }

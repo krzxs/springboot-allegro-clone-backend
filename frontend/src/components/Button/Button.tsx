@@ -34,6 +34,7 @@ function Button(props: buttonProps) {
           "hover:scale-105 hover:shadow-md": scalable,
         }
       )}
+      onClick={onClick}
     >
       {text}
     </button>

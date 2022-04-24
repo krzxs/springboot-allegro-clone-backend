@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import ProductCard from "../../components/ProductCard";
-import Login from "../Login/Login";
 
 function Home() {
   const [products, setProducts] = useState<Array<any>>([]);
